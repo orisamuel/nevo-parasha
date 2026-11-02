@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>הפרשה של נבו · שופטים</title>
+<meta name="description" content="לומדים את פרשת שופטים לבר מצווה: הטעמים, הקריאה בקול של אבא, ומשחקים.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#4B2FE0">
+<meta property="og:title" content="הפרשה של נבו · שופטים">
+<meta property="og:description" content="הטעמים, הקריאה בקול של אבא, ומשחקים לבר מצווה.">
+<meta property="og:image" content="https://orisamuel.github.io/nevo-parasha/img/og.jpg?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://orisamuel.github.io/nevo-parasha/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="he_IL">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?v=3">
+</head>
+<body>
+<div id="app">
+  <header class="topbar" id="topbar">
+    <a class="me" href="#/" aria-label="בית">
+      <span class="avatar">נ</span>
+      <span class="hello">היי נבו</span>
+    </a>
+    <div class="stats">
+      <span class="chip streak" id="streakChip" title="ימים ברצף">🔥 <b id="streakNum">0</b></span>
+      <span class="chip xp" id="xpChip" title="נקודות">⭐ <b id="xpNum">0</b></span>
+    </div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabs" id="tabs" aria-label="ניווט">
+    <a href="#/" data-tab="home"><span class="ti">🏠</span><span>בית</span></a>
+    <a href="#/teamim" data-tab="teamim"><span class="ti">🎵</span><span>טעמים</span></a>
+    <a href="#/read/1" data-tab="read"><span class="ti">📜</span><span>הפרשה</span></a>
+    <a href="#/games" data-tab="games"><span class="ti">🎮</span><span>משחקים</span></a>
+  </nav>
+</div>
+
+<div id="toasts" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="js/data.js?v=2"></script>
+<script src="js/app.js?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+.env
+.env.*
+.claude/
+node_modules/
+_work/

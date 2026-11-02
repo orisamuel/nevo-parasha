@@ -1,0 +1,17 @@
+{
+  "name": "הפרשה של נבו",
+  "short_name": "הפרשה של נבו",
+  "description": "לומדים את פרשת שופטים לבר מצווה",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F1FF",
+  "theme_color": "#4B2FE0",
+  "icons": [
+    { "src": "img/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
